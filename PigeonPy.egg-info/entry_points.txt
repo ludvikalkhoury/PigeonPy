@@ -1,0 +1,3 @@
+[console_scripts]
+email-notifier-setup = PigeonPy.gui_setup:launch_setup
+

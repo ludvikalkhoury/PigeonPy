@@ -22,12 +22,12 @@ package_dir={ '' : package_dir },
 		packages=find_packages(),
 		include_package_data=True,
 		description='A simple email notification package with GUI setup for credentials.',
-		long_description=open('README.md').read(),
+		long_description=open('README.md', encoding='utf-8').read(),
 		long_description_content_type='text/markdown',
 		url='https://github.com/ludvikalkhoury/PigeonPy.git',
 		author='Ludvik Alkhoury',
 		author_email='Ludvik.alkhoury@gmail.com',
-		packages=['PigeonPy'],
+		#packages=['PigeonPy'],
 		classifiers=[
 			'Programming Language :: Python :: 3',
 			'Operating System :: OS Independent',
@@ -36,8 +36,7 @@ package_dir={ '' : package_dir },
 		entry_points={
 			'console_scripts': [
 				'email-notifier-setup=PigeonPy.gui_setup:launch_setup'
-			]
-			
+			]},
 		install_requires=[])
 
       
