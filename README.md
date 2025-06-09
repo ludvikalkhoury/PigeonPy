@@ -18,7 +18,7 @@ A lightweight Python package to send email notifications from your scripts, with
 
 Clone the repository and install in editable mode:
 
-```bash
+```
 git clone https://github.com/ludvikalkhoury/PigeonPy.git
 cd PigeonPy
 pip install -e .
@@ -28,15 +28,13 @@ pip install -e .
 The first time you run the code, a settings window will pop up, allowing you to configure the sender and receiver email addresses for notifications.
 You can always return to this setup later if you want to change the sender or recipient. To launch the setup window again, run:
 
-```bash
+```
 from PigeonPy.gui_setup import launch_setup
 launch_setup()
 ```
 To send an email notification, use the following:
-```bash
+```
 from PigeonPy.carrier import send_pigeon
-import traceback
-error_details = traceback.format_exc()
 	
 send_pigeon(
   subject="MY SUBJECT",
