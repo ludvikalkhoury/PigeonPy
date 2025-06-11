@@ -7,7 +7,7 @@ A lightweight Python package to send email notifications from your scripts, with
 ## ✨ Features
 
 - ✅ Send email notifications automatically from Python
-- 🔐 Securely store your Gmail and App Password using a GUI
+- 🔐 Locally store your Gmail and App Password in a hidden configuration file for future use (no GUI required, after setup) 
 - 📧 Support for multiple recipients (comma or semicolon separated)
 - 💻 Works on Windows, macOS, and Linux
 - 🧠 Automatically prompts for setup if credentials are missing
